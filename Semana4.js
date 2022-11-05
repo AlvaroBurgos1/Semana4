@@ -5,6 +5,7 @@ let url = 'https://jsonplaceholder.typicode.com/users/';
             .then( data => mostrarData(data) )
             .catch( error => console.log(error) )
 
+            
 const mostrarData =(data) =>{
     console.log(data)
     let body = ''
@@ -13,3 +14,4 @@ const mostrarData =(data) =>{
     }
     document.getElementById('data').innerHTML = body 
 }
+
